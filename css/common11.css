@@ -1,0 +1,20 @@
+.h5share_box .side{position: relative;-webkit-animation:side 1s linear;animation:side 1s linear;}
+@keyframes side
+{
+	0%{top: 0px;}
+	20%{top: -20%;}
+	40%{top: -80px;}
+	60%{top: -120px;}
+	80%{top: -160px;}
+	100%{top: -200px;}
+}
+
+@-webkit-keyframes side
+{
+	0%{top: 0px;}
+	20%{top: -40px;}
+	40%{top: -80px;}
+	60%{top: -120px;}
+	80%{top: -160px;}
+	100%{top: -200px;}
+}
